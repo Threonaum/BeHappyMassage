@@ -15,7 +15,7 @@
 <?php $js_exemple(); ?>
 
 
-
+<footer> <?php $cp_footer(); ?> </footer>
 
 
 
