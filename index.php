@@ -7,7 +7,7 @@
 
 <main>
 
-    <p><?= $env_titre ?></p>
+    <?php $cp_carousel(); ?>
 
 </main>
 
