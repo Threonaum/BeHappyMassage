@@ -10,8 +10,10 @@
     <?php $cp_carousel(); ?>
 
     <?php $cp_apropos(); ?>
-    
+
     <?php $cp_boncadeau(); ?>
+
+    <?php $cp_prestation(); ?>
 
 </main>
 
