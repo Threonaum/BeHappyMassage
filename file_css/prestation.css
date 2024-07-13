@@ -1,24 +1,11 @@
-    /* * {
-        box-sizing: border-box;
-    } */
-    /* body {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        font-family: century gothic;
-        background-color: black;
-    } */
     .wrapper {
         width: 1140px;
     }
-    .row1 {
+    .ligne {
         display: flex;
         justify-content: space-evenly;
     }
-    .row1 .card {
+    .ligne .prestation {
         width: 250px;
         height: 300px;
         border: 1px solid black;
@@ -28,14 +15,14 @@
         transition: 0.2s linear;
         background-color: white;
     }
-    .row1 .card:hover {
+    .ligne .prestation:hover {
         transform: translateY(-5px);
         box-shadow: 0 8px 10px 1px;
     }
-    .row1 .card .image {
+    .ligne .prestation .image {
         overflow: hidden;
         height: 150px;
-        background: url("https://cdn.vox-cdn.com/thumbor/5rxhA5vuH-q2mpq1_ixG__-5kws=/94x0:610x344/1200x800/filters:focal(94x0:610x344)/cdn.vox-cdn.com/assets/755523/netflix-logo-705px.png");
+        background: url("https://images.pexels.com/photos/3670580/pexels-photo-3670580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
         background-position: center;
         background-size: cover;
     }
@@ -49,32 +36,10 @@
         padding-left: 10px;
         font-weight: bold;
     }
-    .product .product-author {
-        padding-right: 10px;
-        font-size: 0.8rem;
-        font-style: italic;
-        color: grey;
-        cursor: pointer;
-    }
-    .product .product-author:hover {
-        text-decoration: underline;
-    }
-    .card .product-rating {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        height: 20px;
-    }
-    .card .product-rating i:nth-child(1) {
-        padding-left: 10px;
-    }
-    .card .product-rating i:nth-child(-n+4) {
-        color: red;
-    }
-    .card .description {
+    .prestation .description {
     
     }
-    .card .description p {
+    .prestation .description p {
         display: flex;
         align-items: center;
         margin: 0;
@@ -82,44 +47,45 @@
         font-size: 0.8rem;
         height: 50px;
     }
-    .card .price {
+    .prestation .price {
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 50px;
     }
-    .card .price div .before-price {
+    .prestation .price div .price {
         margin-left: 10px;
         padding: 5px 10px;
         font-weight: bold;
         text-decoration: line-through;
-        background-color: black;
+        background-color: rgb(255, 255, 255);
         color: #ff2323;
         border-radius: 5px;
     }
-    .card .price div .now-price {
-        margin-left: 10px;
-        padding: 5px 10px;
-        font-weight: bold;
-        background-color: red;
-        color: white;
-        border-radius: 5px;
-    }
-    .card .price button {
+    .prestation .price button {
         margin-right: 10px;
         padding: 5px 10px;
         border: 1px solid black;
         border-radius: 5px;
-        background-color: black;
-        color: white;
+        background-color: rgb(255, 255, 255);
+        /* color: white; */
         box-shadow: 0 0 2px 1px black;
         transition: 0.25s;
     }
-    .card .price button:hover {
+    .prestation .price button:hover {
         box-shadow: 0 0 10px 1px black;
     }
-    @media only screen and (max-width: 900px) {
+    /* @media only screen and (max-width: 900px) {
         .row {
         flex-wrap: wrap;
-        }
+        box-sizing: border-box;
     }
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    } */
