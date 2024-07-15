@@ -39,6 +39,10 @@
     /* border-bottom: 4px solid white; */
 }
 
+#entreprise .nav-item .prio:hover{
+    background-color: #83547d;
+}
+
 #entreprise .basic:hover {
     /* background-color: #79a7d3; */
     border-bottom: 4px solid #79a7d3;
