@@ -1,0 +1,38 @@
+
+#entreprise {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    padding: 50px;
+}
+
+#entreprise h1{
+    margin: 0;
+}
+
+#entreprise nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    /* padding-right: 50px; */
+}
+
+#entreprise .nav-item a{
+    color: black;
+    font-size: 120%;
+}
+
+#entreprise .nav-item a{
+    transition: color 0.3 ease;
+}
+
+#entreprise .nav-item:hover {
+    background-color: #c8a3c3;
+    border-radius: 10px;
+}
+
+#entreprise .nav-item a:hover{
+    
+    color: white;
+}
