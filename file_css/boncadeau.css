@@ -1,0 +1,33 @@
+#giftform {
+    /* background-color: #a2c5e6; */
+    padding-left: 500px;
+    padding-right: 500px;
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+form.gift {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+form.gift label, form.gift input {
+    margin-bottom: 10px;
+}
+
+form.gift input {
+    padding: 10px;
+    border: 1px solid #777575;
+    border-radius: 4px;
+    background-color: #a2c5e6;
+}
+
+form .submit-btn {
+    background-color: #79a7d3;
+}
