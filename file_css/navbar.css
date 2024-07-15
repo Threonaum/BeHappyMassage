@@ -1,4 +1,3 @@
-
 #entreprise {
     display: flex;
     align-items: center;
@@ -6,7 +5,9 @@
     height: 30px;
     padding: 50px;
 }
-
+#entreprise a{
+    margin: 0 15px;
+}
 #entreprise h1{
     margin: 0;
 }
@@ -18,21 +19,33 @@
     /* padding-right: 50px; */
 }
 
+#entreprise .basic{
+    border-bottom: 4px solid white;
+}
+
 #entreprise .nav-item a{
     color: black;
     font-size: 120%;
-}
-
-#entreprise .nav-item a{
     transition: color 0.3 ease;
+    text-decoration: none;
+    border-bottom: 4px solid white;
 }
 
-#entreprise .nav-item:hover {
-    background-color: #c8a3c3;
+#entreprise .nav-item .prio{
+    background-color: #8a307f;
     border-radius: 10px;
+    color: white;
+    font-size: 120%;
+    /* border-bottom: 4px solid white; */
+}
+
+#entreprise .basic:hover {
+    /* background-color: #79a7d3; */
+    border-bottom: 4px solid #79a7d3;
+    
 }
 
 #entreprise .nav-item a:hover{
     
-    color: white;
+    /* color: white; */
 }
