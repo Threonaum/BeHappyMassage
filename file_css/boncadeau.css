@@ -1,33 +1,69 @@
-#giftform {
-    /* background-color: #a2c5e6; */
-    padding-left: 500px;
-    padding-right: 500px;
-    /* align-items: center; */
+#all {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
-form.gift {
+#giftform h2 {
+    font-size: 300%;
+}
+
+.allform {
+    border: 2px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 30px;
+    margin: 100px;
+}
+
+#giftform {
+    width: 700px;
+}
+
+#giftform img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.gift {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    align-items: flex-start;
 }
 
-form.gift label, form.gift input {
-    margin-bottom: 10px;
+.gift label {
+    margin-top: 10px;
+    color: #3b89d1;
 }
 
-form.gift input {
-    padding: 10px;
-    border: 1px solid #777575;
+.gift input[type="text"],
+.gift input[type="email"],
+.gift input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    background-color: #a2c5e6;
+    box-sizing: border-box;
 }
 
-form .submit-btn {
-    background-color: #79a7d3;
+.gift .last {
+    margin-bottom: 80px;
+}
+
+.submit-btn {
+    background-color: #aa5ba1;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+
+    
+}
+
+.submit-btn:hover {
+    background-color: #83547d;
 }

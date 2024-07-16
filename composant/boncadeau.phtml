@@ -1,35 +1,37 @@
-<div id="giftform">
-    <div id="gauche">
-        <h2> Bon Cadeau</h2>
-        <img src="./file_assets/boncadeau.png" alt="">
+<div id="all">
+    <div id="giftform" class="allform">
+        <div id="gauche">
+            <h2> Bon Cadeau</h2>
+            <img src="./file_assets/boncadeau.png" alt="">
+        </div>
+        <form class="gift">
+
+            <label for="nom">Votre Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="prenom">Votre Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+
+            <label for="mail">Votre Mail :</label>
+            <input type="email" id="mail" name="mail"required>
+
+            <label for="attention">A l'attention de :</label>
+            <input type="text" id="attention" name="attention" required>
+
+            <label for="offertpar">Offert par :</label>
+            <input type="text" id="offertpar" name="offertpar"required>
+
+            <label for="choix">Préstation, durée ou valeur :</label>
+            <input type="text" id="choix" name="choix"required>
+
+            <label for="reception">Préciser si vous voulez recevoir le bon cadeau par mail ou si vous voulez le retirer directement au salon Be Happy Massage</label>
+            <input type="text" id="reception" name="reception"required>
+
+            <label for="reglement">Virement, Espèces ou chèque :</label>
+            <input type="text" id="reglement" class="last" name="reglement"required>
+
+            <input type="submit" value="Envoyer" class="submit-btn">
+
+        </form>
     </div>
-    <form class="gift">
-
-        <label for="nom">Votre Nom :</label>
-        <input type="text" id="nom" name="nom" required>
-
-        <label for="prenom">Votre Prénom :</label>
-        <input type="text" id="prenom" name="prenom" required>
-
-        <label for="mail">Votre Mail :</label>
-        <input type="mail" id="mail" name="mail"required>
-
-        <label for="attention">A l'attention de :</label>
-        <input type="text" id="attention" name="attention" required>
-
-        <label for="offertpar">Offert par :</label>
-        <input type="text" id="offertpar" name="offertpar"required>
-
-        <label for="choix">Préstation, durée ou valeur :</label>
-        <input type="text" id="choix" name="choix"required>
-
-        <label for="reception">Préciser si vous voulez recevoir le bon cadeau par mail ou si vous voulez le retirer directement au salon Be Happy Massage</label>
-        <input type="text" id="reception" name="reception"required>
-
-        <label for="reglement">Virement, Espèces ou chèque :</label>
-        <input type="text" id="reglement" name="reglement"required>
-
-        <input type="submit" value="Envoyer" class="submit-btn">
-
-    </form>
 </div>
