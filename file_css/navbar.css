@@ -12,9 +12,13 @@
     justify-content: space-between;
     height: 30px;
     padding: 50px;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
     z-index: 1000;
+    background-color: white;
+    box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
 }
 #entreprise a{
     margin: 0 15px;
@@ -60,7 +64,22 @@
     
 }
 
-#entreprise .nav-item a:hover{
-    
-    /* color: white; */
+#check {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+
+}
+
+#check input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#check label {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
 }
