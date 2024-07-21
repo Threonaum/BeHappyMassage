@@ -1,7 +1,22 @@
-    #all {
+    #allprestations {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    #allprestations h2 {
+        margin-bottom: 20px;
+        font-size: 360%;
+        border-bottom: 4px solid #79a7d3;
+        display: inline-block;
+        padding-bottom: 50px;
+        margin-bottom: 100px;
+    }
+    
+    #presta {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
     
     .wrapper {
@@ -16,7 +31,7 @@
     }
     .ligne .prestation {
         width: 250px;
-        height: 350px;
+        height: 400px;
         margin-left: 20px;
         border: 1px solid rgb(70, 68, 68);
         box-shadow: 0 5px 5px 1px;
@@ -24,6 +39,7 @@
         overflow: hidden;
         transition: 0.2s linear;
         background-color: white;
+        margin-bottom: 40px;
     }
     .ligne .prestation:hover {
         transform: translateY(-5px);
@@ -38,22 +54,22 @@
     }
     .product {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         height: 30px; 
     }
     .product .product-name {
         padding-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
         font-weight: bold;
-    }
-    .prestation .description {
-    
+        text-align: center;
     }
     .prestation .description p {
         display: flex;
         align-items: center;
         margin: 0;
-        padding: 5px 10px 0 10px;
+        padding: 20px 10px 0 10px;
         font-size: 0.8rem;
         height: 50px;
     }
@@ -67,6 +83,7 @@
         margin: 10px 0;
         padding: 5px 10px;
         margin-top: 100px;
+        margin-bottom: -50px;
         border: 1px solid black;
         border-radius: 5px;
         background-color: rgb(255, 255, 255);
