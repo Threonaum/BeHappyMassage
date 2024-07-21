@@ -15,6 +15,8 @@
 
     <?php $cp_prestation(); ?>
 
+    <?php $cp_contact(); ?>
+
 </main>
 
 
