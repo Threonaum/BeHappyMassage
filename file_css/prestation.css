@@ -1,109 +1,108 @@
-    #allprestations {
-        text-align: center;
-        margin-top: 100px;
-    }
+#allprestations {
+    text-align: center;
+    margin-top: 100px;
+}
 
-    #allprestations h2 {
-        margin-bottom: 20px;
-        font-size: 360%;
-        border-bottom: 4px solid #79a7d3;
-        display: inline-block;
-        padding-bottom: 50px;
-        margin-bottom: 100px;
-    }
-    
-    #presta {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    .wrapper {
-        width: 1140px;
-        
-    }
-    .ligne {
-        display: flex;
-        justify-content: space-evenly;
-        margin-bottom: 80px;
-        flex-wrap: wrap;
-    }
-    .ligne .prestation {
-        width: 250px;
-        height: 400px;
-        margin-left: 20px;
-        border: 1px solid rgb(70, 68, 68);
-        box-shadow: 0 5px 5px 1px;
-        border-radius: 30px;
-        overflow: hidden;
-        transition: 0.2s linear;
-        background-color: white;
-        margin-bottom: 40px;
-    }
-    .ligne .prestation:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 10px 1px;
-    }
-    .ligne .prestation .image {
-        overflow: hidden;
-        height: 150px;
-        background: url("https://images.pexels.com/photos/3670580/pexels-photo-3670580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-        background-position: center;
-        background-size: cover;
-    }
-    .product {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 30px; 
-    }
-    .product .product-name {
-        padding-left: 10px;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        font-weight: bold;
-        text-align: center;
-    }
-    .prestation .description p {
-        display: flex;
-        align-items: center;
-        margin: 0;
-        padding: 20px 10px 0 10px;
-        font-size: 0.8rem;
-        height: 50px;
-    }
-    .prestation .price {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50px;
-    }
-    .info-button {
-        margin: 10px 0;
-        padding: 5px 10px;
-        margin-top: 100px;
-        margin-bottom: -50px;
-        border: 1px solid black;
-        border-radius: 5px;
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0 0 2px 1px black;
-        transition: 0.25s;
-    }
-    .prestation .price button:hover {
-        box-shadow: 0 0 10px 1px black;
-    }
-    /* @media only screen and (max-width: 900px) {
-        .row {
-        flex-wrap: wrap;
-        box-sizing: border-box;
-    }
-    body {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    } */
+#allprestations h2 {
+    margin-bottom: 20px;
+    font-size: 360%;
+    border-bottom: 4px solid #79a7d3;
+    display: inline-block;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+#presta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 1140px;
+}
+
+.ligne {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.ligne .prestation {
+    width: 250px;
+    height: 500px;
+    margin-left: 20px;
+    border: 1px solid rgb(70, 68, 68);
+    box-shadow: 0 5px 5px 1px;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.2s linear;
+    background-color: white;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ligne .prestation:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 10px 1px;
+}
+
+.ligne .prestation .image {
+    overflow: hidden;
+    height: 150px;
+    background: url("https://images.pexels.com/photos/3670580/pexels-photo-3670580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px; 
+}
+
+.product .product-name {
+    padding-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.prestation .description p {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px 10px 0 10px;
+    font-size: 0.8rem;
+    height: 50px;
+}
+
+.prestation .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 50px;
+}
+
+.info-button {
+    margin: 10px 40px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 2px 1px black;
+    transition: 0.25s;
+    margin-bottom: 40px;
+}
+
+.prestation .price button:hover {
+    background-color: #9fc1e1;
+    box-shadow: 0 0 10px 1px black;
+}
