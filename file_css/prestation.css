@@ -32,10 +32,10 @@
 
 .ligne .prestation {
     width: 350px;
-    height: 500px;
+    height: 600px;
     margin-left: 20px;
-    border: 1px solid rgb(70, 68, 68);
-    box-shadow: 0 5px 5px 1px;
+    border: 1px solid rgb(115, 112, 112);
+    box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
     border-radius: 30px;
     overflow: hidden;
     transition: 0.2s linear;
@@ -48,116 +48,16 @@
 
 .ligne .prestation:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 10px 1px;
+    box-shadow: 0 8px 10px 1px #aa5ba1;
 }
 
-.prestation img{
-    overflow: hidden;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
+.prestation img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
-
-/* Prestations */
-
-/* #fascia{
-    overflow: hidden;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-}
-
-#auriculo{
-    overflow: hidden;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-}
-
-#REA{
-    overflow: hidden;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-}
-
-#ventouse{
-    overflow: hidden;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-}
-
-#dos{
-    overflow: hidden;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-}
-
-#bebe{
-    overflow: hidden;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-}
-
-#plantaire{
-    overflow: hidden;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-}
-
-#perso{
-    overflow: hidden;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-}
-
-#ventre{
-    overflow: hidden;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-}
-
-#moxi{
-    overflow: hidden;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-}
-
-#enceinte{
-    overflow: hidden;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-}
-
-#visage{
-    overflow: hidden;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-}
-
-#lampe{
-    overflow: hidden;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-}
-
-#presso{
-    overflow: hidden;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-} */
-
 
 .product {
     display: flex;

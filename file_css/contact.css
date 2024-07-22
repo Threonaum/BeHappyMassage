@@ -1,3 +1,8 @@
+#informations {
+    text-align: center;
+    margin-top: 100px;
+}
+
 #contact {
     display: flex;
     justify-content: center;
@@ -5,12 +10,31 @@
     margin: 0;
 }
 
-#gauche_contact h2 {
-    font-size: 300%;
+#informations h2 {
+    margin-bottom: 20px;
+    font-size: 360%;
+    border-bottom: 4px solid #79a7d3;
+    display: inline-block;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
+/* #gauche_contact h2 {
+    font-size: 300%;
+} */
+
+#gauche_contact iframe {
+    border-radius: 30px; 
+    border: 10px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 400px; 
+    overflow: hidden;
+}
+
+
 .informations {
-    border: 2px solid #ccc;
+    /* border: 2px solid #241b1b; */
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
