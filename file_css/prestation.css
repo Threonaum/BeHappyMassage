@@ -31,7 +31,7 @@
 }
 
 .ligne .prestation {
-    width: 250px;
+    width: 350px;
     height: 500px;
     margin-left: 20px;
     border: 1px solid rgb(70, 68, 68);
@@ -51,13 +51,120 @@
     box-shadow: 0 8px 10px 1px;
 }
 
-.ligne .prestation .image {
+/* Prestations */
+
+#fascia{
     overflow: hidden;
     height: 150px;
-    background: url("https://images.pexels.com/photos/3670580/pexels-photo-3670580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-position: center;
     background-size: cover;
+    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
 }
+
+#auriculo{
+    overflow: hidden;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
+}
+
+#REA{
+    overflow: hidden;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
+}
+
+#ventouse{
+    overflow: hidden;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
+}
+
+#dos{
+    overflow: hidden;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
+}
+
+#bebe{
+    overflow: hidden;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
+}
+
+#plantaire{
+    overflow: hidden;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
+}
+
+#perso{
+    overflow: hidden;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
+}
+
+#ventre{
+    overflow: hidden;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
+}
+
+#moxi{
+    overflow: hidden;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
+}
+
+#enceinte{
+    overflow: hidden;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);    
+}
+
+#visage{
+    overflow: hidden;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
+}
+
+#lampe{
+    overflow: hidden;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
+}
+
+#presso{
+    overflow: hidden;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
+}
+
 
 .product {
     display: flex;
@@ -72,6 +179,7 @@
     margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
+    font-size: 20px;
 }
 
 .prestation .description p {
