@@ -51,14 +51,20 @@
     box-shadow: 0 8px 10px 1px;
 }
 
-/* Prestations */
-
-#fascia{
+.prestation img{
     overflow: hidden;
     height: 150px;
     background-position: center;
     background-size: cover;
-    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
+}
+
+/* Prestations */
+
+/* #fascia{
+    overflow: hidden;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
 }
 
 #auriculo{
@@ -66,7 +72,6 @@
     height: 150px;
     background-position: center;
     background-size: cover;
-    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
 }
 
 #REA{
@@ -74,7 +79,6 @@
     height: 150px;
     background-position: center;
     background-size: cover;
-    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
 }
 
 #ventouse{
@@ -82,7 +86,6 @@
     height: 150px;
     background-position: center;
     background-size: cover;
-    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
 }
 
 #dos{
@@ -90,7 +93,6 @@
     height: 150px;
     background-position: center;
     background-size: cover;
-    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
 }
 
 #bebe{
@@ -98,7 +100,6 @@
     height: 150px;
     background-position: center;
     background-size: cover;
-    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
 }
 
 #plantaire{
@@ -106,7 +107,6 @@
     height: 150px;
     background-position: center;
     background-size: cover;
-    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
 }
 
 #perso{
@@ -114,7 +114,6 @@
     height: 150px;
     background-position: center;
     background-size: cover;
-    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
 }
 
 #ventre{
@@ -122,7 +121,6 @@
     height: 150px;
     background-position: center;
     background-size: cover;
-    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
 }
 
 #moxi{
@@ -130,7 +128,6 @@
     height: 150px;
     background-position: center;
     background-size: cover;
-    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
 }
 
 #enceinte{
@@ -138,7 +135,6 @@
     height: 150px;
     background-position: center;
     background-size: cover;
-    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);    
 }
 
 #visage{
@@ -146,7 +142,6 @@
     height: 150px;
     background-position: center;
     background-size: cover;
-    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
 }
 
 #lampe{
@@ -154,7 +149,6 @@
     height: 150px;
     background-position: center;
     background-size: cover;
-    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
 }
 
 #presso{
@@ -162,8 +156,7 @@
     height: 150px;
     background-position: center;
     background-size: cover;
-    background: url(https://images.pexels.com/photos/3867210/pexels-photo-3867210.jpeg);
-}
+} */
 
 
 .product {
