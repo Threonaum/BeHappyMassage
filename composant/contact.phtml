@@ -2,6 +2,21 @@
     <h2> Contact</h2>
     <div id="contact">
         <div id="gauche_contact">
+                <p>671 Rue Aimé Bonneville 01200 Valserhône</p>
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M8.26 1.289l-1.564.772c-5.793 3.02 2.798 20.944 9.31 20.944.46 0 .904-.094 1.317-.284l1.542-.755-2.898-5.594-1.54.754c-.181.087-.384.134-.597.134-2.561 0-6.841-8.204-4.241-9.596l1.546-.763-2.875-5.612zm7.746 22.711c-5.68 0-12.221-11.114-12.221-17.832 0-2.419.833-4.146 2.457-4.992l2.382-1.176 3.857 7.347-2.437 1.201c-1.439.772 2.409 8.424 3.956 7.68l2.399-1.179 3.816 7.36s-2.36 1.162-2.476 1.215c-.547.251-1.129.376-1.733.376"/></svg>
+                <p>06 01 85 49 03</p>
+                <div class="horaires">
+                    <h4>Horaires d'ouverture</h4>
+                    <ul>
+                        <li class="ferme">Dimanche : Fermé</li>
+                        <li class="ferme">Lundi : Fermé</li>
+                        <li class="ouvert">Mardi : 9h30 - 19h00</li>
+                        <li class="ouvert">Mercredi : 9h30 - 19h00</li>
+                        <li class="ferme">Jeudi : Fermé</li>
+                        <li class="ouvert">Vendredi : 9h30 - 19h00</li>
+                        <li class="ouvert">Samedi : 9h30 - 19h00</li>
+                    </ul>
+                </div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2764.3396504999096!2d5.797357684484758!3d46.14398230746819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c9b5c21fbde83%3A0xf52ddf9f06c52acb!2s671%20Rue%20Aim%C3%A9%20Bonneville%2C%2001200%20Valserh%C3%B4ne!5e0!3m2!1sfr!2sfr!4v1721658564483!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         <div id="contact_infos" class="informations">
@@ -9,19 +24,19 @@
             <form class="contactme">
 
                 <label for="nom">Votre Nom :</label>
-                <input type="text" id="contact_nom" name="nom" required>
+                <input type="text" class="contactme-input" name="nom" required>
 
                 <label for="prenom">Votre Prénom :</label>
-                <input type="text" id="contact_prenom" name="prenom" required>
+                <input type="text" class="contactme-input" name="prenom" required>
 
                 <label for="mail">Votre Mail :</label>
-                <input type="email" id="contact_mail" name="mail"required>
+                <input type="email" class="contactme-input" name="mail"required>
 
                 <label for="message">Votre message concerne :</label>
-                <input type="text" id="raison" class="raison" name="reglement"required>
+                <input type="text" class="contactme-input" name="reglement"required>
 
-                <label for="contenu">Tapez votre message ici</label>
-                <input type="text" id="message" class="message" name="message"required>
+                <label for="contenu">Tapez votre message ici :</label>
+                <textarea id="message" class="contactme-input" name="message" required></textarea>
 
                 <div id="check">
 
@@ -30,7 +45,7 @@
                 
                 </div>
 
-                <input type="submit" value="Envoyer" class="contact-submit-btn">
+                <input type="submit" value="Envoyer" class="contact-submit-btn contactme-input">
 
             </form>
             </div>

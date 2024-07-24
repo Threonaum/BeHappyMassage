@@ -19,8 +19,20 @@
     margin-bottom: 20px;
 }
 
-/* #gauche_contact h2 {
-    font-size: 300%;
+#informations svg {
+    color: #aa5ba1;
+}
+
+#gauche_contact li {
+    list-style-type: none;
+}
+
+/* .ferme {
+    color: #79a7d3;
+}
+
+.ouvert {
+    color: #aa5ba1;
 } */
 
 #gauche_contact iframe {
@@ -47,12 +59,6 @@
     width: 700px;
 }
 
-#contact_infos img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 30px;
-}
-
 .contactme {
     display: flex;
     flex-direction: column;
@@ -64,9 +70,7 @@
     color: #3b89d1;
 }
 
-.contactme input[type="text"],
-.contactme input[type="email"],
-.contactme input[type="submit"] {
+.contactme-input {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
@@ -84,8 +88,10 @@
     color: white;
     cursor: pointer;
     margin-top: 20px;
+}
 
-    
+#message {
+    height: 150px;
 }
 
 .contact-submit-btn:hover {
