@@ -2,6 +2,8 @@
     padding-left: 250px;
     padding-right: 250px;
     padding-top: 70px;
+    text-align: center;
+    margin-top: 100px;
 }
 
 #content {
@@ -15,6 +17,13 @@
     box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
 }
 
+#apropos .apropos img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
 #content p {
     text-align: justify;
     font-size: 120%;
@@ -22,10 +31,11 @@
     padding-right: 50px;
 }
 
-#content h2 {
+#apropos h2 {
+    margin-bottom: 20px;
     font-size: 360%;
     border-bottom: 4px solid #79a7d3;
-    width: 50%;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
+    display: inline-block;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
