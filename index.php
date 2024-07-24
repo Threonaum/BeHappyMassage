@@ -17,6 +17,8 @@
 
     <?php $cp_contact(); ?>
 
+    <?php $cp_faq(); ?>
+
 </main>
 
 
