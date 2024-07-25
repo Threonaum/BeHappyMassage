@@ -3,8 +3,14 @@
     overflow: hidden; 
 }
 
-#carousel img {
+.centre-item {
+    width: 100%;
+}
+
+.image {
     width: 100%;
     height: auto; 
-    object-fit: contain;
+    /* object-fit: contain; */
+    display: block;
+
 }

@@ -39,3 +39,26 @@
     padding-bottom: 30px;
     margin-bottom: 20px;
 }
+
+@media (max-width: 1295px) {
+    #content {
+        min-height: 518px;
+        min-width: 348px;
+    }
+
+    #picture img {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 950px) {
+    #content {
+        font-size: 80%;
+    }
+
+    #picture {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
