@@ -28,11 +28,12 @@
 }
 
 #entreprise nav {
-    flex-grow: 1;
     display: flex;
     justify-content: flex-end;
     /* padding-right: 50px; */
 }
+
+
 
 #entreprise .basic{
     border-bottom: 4px solid white;
@@ -55,7 +56,7 @@
 }
 
 #entreprise .nav-item .prio:hover{
-    background-color: #83547d;
+    background-color: #ab7aa4;
 }
 
 #entreprise .basic:hover {
@@ -64,22 +65,21 @@
     
 }
 
-#check {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
+@media (max-width: 1197px) {
+
+    #entreprise h1{
+        font-size: 200%;
+    }
 
 }
 
-#check input[type="checkbox"] {
-    margin-right: 10px;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-}
+@media (max-width: 1110px) {
 
-#check label {
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 20px;
-}
+    #entreprise h1{
+        align-items: center;
+    }
+
+    #entreprise .basic {
+        display: none;
+    }
+} 
