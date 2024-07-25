@@ -1,16 +1,24 @@
 #faq {
     display: flex;
-    flex-direction: column; /* Arrange les éléments en colonne */
-    align-items: center; /* Centre les éléments horizontalement */
+    flex-direction: column; 
+    align-items: center; 
     margin: 0;
-    padding: 20px; /* Ajoute un peu d'espace autour du conteneur */
+    padding: 20px;
 }
 
 #faq h2 {
     margin-bottom: 20px;
     font-size: 360%;
     border-bottom: 4px solid #79a7d3;
-    padding-bottom: 20px; /* Réduit l'espace sous le titre */
+    padding-bottom: 20px;
+}
+
+#faq h3 {
+    color: #000000;
+}
+
+#faq h3:hover {
+    color: #aa5ba1;
 }
 
 .accordion {

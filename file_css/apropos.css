@@ -1,23 +1,23 @@
-#apropos {
+#philo {
     padding-left: 250px;
     padding-right: 250px;
-    padding-top: 70px;
+    padding-top: 10px;
     text-align: center;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 #content {
     margin-left: 35px;
 }
 
-#apropos .apropos {
+#philo .philo {
     width: 400px;
     height: 600px;
     border-radius: 30px;
     box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
 }
 
-#apropos .apropos img {
+#philo .philo img {
     max-width: 100%;
     max-height: 100%;
     width: auto;
@@ -31,7 +31,7 @@
     padding-right: 50px;
 }
 
-#apropos h2 {
+#philo h2 {
     margin-bottom: 20px;
     font-size: 360%;
     border-bottom: 4px solid #79a7d3;
