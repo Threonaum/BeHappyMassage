@@ -9,7 +9,7 @@
 
     <?php $cp_carousel(); ?>
 
-    <?php $cp_apropos(); ?>
+    <?php $cp_apropos(); ?> <!-- légère amélioration quand supprimé au niveau du scrolling horyzontal -->
 
     <?php $cp_boncadeau(); ?>
 
