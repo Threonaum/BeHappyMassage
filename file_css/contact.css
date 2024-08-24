@@ -27,6 +27,10 @@
     margin: 100px;
 }
 
+#gauche_contact svg {
+    margin-bottom: 10px;
+}
+
 #gauche_contact li {
     list-style-type: none;
 }
