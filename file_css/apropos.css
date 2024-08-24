@@ -6,6 +6,13 @@
     /* margin-top: 100px; */
 }
 
+#philo_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
 #content {
     margin-left: 35px;
 }
@@ -26,7 +33,7 @@
 
 #content p {
     text-align: justify;
-    font-size: 120%;
+    font-size: 1.2vw;
     border-right: 4px solid #79a7d3;
     padding-right: 50px;
 }
@@ -40,25 +47,14 @@
     margin-bottom: 20px;
 }
 
-/* @media (max-width: 1295px) {
-    #content {
-        min-height: 518px;
-        min-width: 348px;
+@media (max-width: 1210px){
+
+    #content p {
+        font-size: 1.2vw;
     }
 
-    #picture img {
-        margin-left: 50px;
+    #philo .philo img {
+        max-width: 80%;
+        max-height: 80%;
     }
 }
-
-@media (max-width: 950px) {
-    #content {
-        font-size: 80%;
-    }
-
-    #picture {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-} */
