@@ -48,6 +48,7 @@
     transition: color 0.3 ease;
     text-decoration: none;
     border-bottom: 4px solid white;
+    margin-bottom: -20px;
 }
 
 #entreprise .nav-item .prio{
