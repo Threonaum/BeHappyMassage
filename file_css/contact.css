@@ -23,17 +23,13 @@
     color: #aa5ba1;
 }
 
+#gauche_contact {
+    margin: 100px;
+}
+
 #gauche_contact li {
     list-style-type: none;
 }
-
-/* .ferme {
-    color: #79a7d3;
-}
-
-.ouvert {
-    color: #aa5ba1;
-} */
 
 #gauche_contact iframe {
     border-radius: 30px; 
@@ -46,7 +42,6 @@
 
 
 .informations {
-    /* border: 2px solid #241b1b; */
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
@@ -78,10 +73,6 @@
     border-radius: 4px;
     box-sizing: border-box;
 }
-
-/* .contactme .last {
-    margin-bottom: 80px;
-} */
 
 .contact-submit-btn {
     background-color: #aa5ba1;
