@@ -40,7 +40,7 @@
     margin-bottom: 20px;
 }
 
-@media (max-width: 1295px) {
+/* @media (max-width: 1295px) {
     #content {
         min-height: 518px;
         min-width: 348px;
@@ -61,4 +61,4 @@
         justify-content: space-between;
         align-items: flex-start;
     }
-}
+} */
