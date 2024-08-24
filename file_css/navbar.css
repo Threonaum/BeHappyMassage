@@ -110,4 +110,8 @@
         
     }
 
+    #entreprise svg:active {
+        color: #ab7aa4;
+    }
+
 }
