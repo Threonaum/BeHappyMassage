@@ -6,10 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-nav {
-    background-color: white; !important
-}
-
 #entreprise {
     display: flex;
     align-items: center;
@@ -44,6 +40,7 @@ nav {
 
 #entreprise .basic{
     border-bottom: 4px solid white;
+    height: 44px;
 }
 
 #entreprise .nav-item a{
@@ -51,7 +48,7 @@ nav {
     font-size: 120%;
     transition: color 0.3 ease;
     text-decoration: none;
-    border-bottom: 4px solid white;
+    /* border-bottom: 4px solid white; */
     margin-bottom: -20px;
 }
 

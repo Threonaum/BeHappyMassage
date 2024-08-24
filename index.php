@@ -25,7 +25,7 @@
 <?php $js_exemple(); ?>
 
 
-<footer> <?php $cp_footer(); ?> </footer>
+<footer style="width: 100%;"> <?php $cp_footer(); ?> </footer>
 
 
 
