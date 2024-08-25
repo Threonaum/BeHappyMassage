@@ -47,6 +47,167 @@
     justify-content: space-between;
 }
 
+/* ********************* */
+
+/* CSS Pressothérapie */
+
+.ligne .prestation_press {
+    width: 350px;
+    height: 700px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid rgb(115, 112, 112);
+    box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.2s linear;
+    background-color: white;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ligne .prestation_press:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 10px 1px #aa5ba1;
+}
+
+
+.product_press {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px; 
+}
+
+.product_press .product-name {
+    padding-left: 10px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.prestation_press img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.prestation_press .image-container {
+    width: 100%;
+    height: 250px;
+    background-image: url('../file_assets/lampe.png');
+    background-size: cover;
+    background-position:center-bottom;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.prestation_press .description p {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px 10px 0 10px;
+    font-size: 0.8rem;
+    height: 50px;
+    
+}
+
+.prestation_press .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 50px;
+    font-weight: bold;
+}
+
+.prestation_press .price p {
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+
+/* fin CSS Pressothérapie */
+
+/* ********************* */
+
+/* CSS lampe */
+
+.ligne .prestation_lampe {
+    width: 350px;
+    height: 700px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid rgb(115, 112, 112);
+    box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.2s linear;
+    background-color: white;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ligne .prestation_lampe:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 10px 1px #aa5ba1;
+}
+
+.prestation_lampe .description_lampe p {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding: 100px 10px 0 10px;
+    font-size: 0.8rem;
+    height: 50px;
+    
+}
+
+.prestation_lampe img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.prestation_lampe .image-container {
+    width: 100%;
+    height: 250px;
+    background-image: url('../file_assets/lampe.png');
+    background-size: cover;
+    background-position:center-bottom;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.prestation_lampe .price_lampe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 50px;
+    font-weight: bold;
+}
+
+.prestation_lampe .price_lampe p {
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+/* fin CSS lampe */
+
+/* ********************* */
+
+
 .ligne .prestation:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 10px 1px #aa5ba1;
@@ -79,12 +240,13 @@
 
 .product .product-name {
     padding-left: 10px;
-    margin-top: 50px;
-    margin-bottom: 10px;
+    margin-top: 60px;
+    margin-bottom: 40px;
     font-weight: bold;
     text-align: center;
     font-size: 20px;
 }
+
 
 .prestation .description p {
     display: flex;
@@ -93,6 +255,60 @@
     padding: 20px 10px 0 10px;
     font-size: 0.8rem;
     height: 50px;
+    
+}
+
+/* L'auriculothérapie */
+.prestation .description_auri p {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    padding: 20px 10px 0 10px;
+    font-size: 0.8rem;
+    height: 50px;
+    
+}
+
+/* Ventouses */
+.prestation .description_ventouses p {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    padding: 20px 10px 30px 10px;
+    font-size: 0.8rem;
+    height: 50px;
+}
+
+/* Réflexologie plantaire */
+.prestation .description_foot p {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding: 40px 10px 0 10px;
+    font-size: 0.8rem;
+    height: 50px;
+}
+
+/* Massage dos et tensions */
+.prestation .description_dos p {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    padding: 20px 10px 0 10px;
+    font-size: 0.8rem;
+    height: 50px;
+    
+}
+
+/* Massage visage */
+.prestation .description_visage p {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding: 60px 10px 0 10px;
+    font-size: 0.8rem;
+    height: 50px;
+    
 }
 
 .prestation .price {
@@ -101,20 +317,31 @@
     align-items: center;
     margin-top: auto;
     height: 50px;
+    font-weight: bold;
 }
 
-.info-button {
-    margin: 10px 40px;
-    padding: 5px 10px;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 2px 1px black;
-    transition: 0.25s;
-    margin-bottom: 40px;
+.prestation .price p {
+    padding-bottom: 30px;
 }
 
-.prestation .price button:hover {
-    background-color: #9fc1e1;
-    box-shadow: 0 0 10px 1px black;
+/* Massage enfant */
+.prestation .price_kid2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Massage personnalisé */
+.prestation .price_perso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
