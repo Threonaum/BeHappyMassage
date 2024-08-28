@@ -20,11 +20,32 @@
     background-color: white;
     box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
 }
+
+#entreprise .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#enteprise .navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+#entreprise .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
 #entreprise a{
-    margin: 0 15px;
+    margin: 0 30px;
 }
 #entreprise h1{
     margin: 0;
+    white-space: nowrap;
 }
 
 #entreprise nav {
@@ -33,14 +54,10 @@
     /* padding-right: 50px; */
 }
 
-#entreprise svg {
-    display: none;
-}
-
-
 #entreprise .basic{
     border-bottom: 4px solid white;
     height: 44px;
+    padding-bottom: 20px;
 }
 
 #entreprise .nav-item a{
@@ -50,6 +67,7 @@
     text-decoration: none;
     /* border-bottom: 4px solid white; */
     margin-bottom: -20px;
+    white-space: nowrap;
 }
 
 #entreprise .nav-item .prio{
@@ -70,50 +88,76 @@
     
 }
 
-@media (max-width: 1250px) {
-    #entreprise a {
-        margin: 0;
-    }
-}
+@media (max-width: 1308px) {
 
-@media (max-width: 1197px) {
-
-    #entreprise h1{
-        font-size: 180%;
+    #entreprise h1 {
+        font-size: 2.5vw;
     }
 
     #entreprise a {
-        margin: 0;
+        margin: 0 15px;
     }
-
 }
 
-@media (max-width: 797px ) {
-    #entreprise .mobile {
-        display: none;
+
+@media (max-width: 992px) {
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        z-index: 1000;
     }
 
-    #entreprise svg {
+    .navbar-toggler {
+        position: relative;
+        z-index: 1100;
+    }
+
+    .navbar-collapse.show {
         display: flex;
-        justify-content: flex-end;
-        font-size: 120%;
-        width: 50px;
-        height: 50px;
-        margin-left: 50px;
-        color: rgb(54, 52, 52);
+        flex-direction: column;
+        align-items: flex-end;
     }
 
-    #entreprise .prio {
-        margin-left: 50px;
+    .navbar-nav {
+        width: auto;
     }
 
-    #entreprise .basic:hover {
-        border-bottom: 4px solid #ffffff;
+    #entreprise .nav-item a {
+        background-color: rgb(255, 255, 255, 0.5) ;
+        width: 100%;
         
     }
 
-    #entreprise svg:active {
-        color: #ab7aa4;
+    #entreprise {
+        box-shadow: none;
     }
 
+    #entreprise h1 {
+        font-size: 120%;
+    }
+
+    #entreprise .basic {
+        border-bottom: none;
+    }
+
+    #entreprise .basic:hover {
+        border-bottom: none;
+    }
+
+    #entreprise .nav-item .prio {
+        border-bottom-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+    }
+
+    #navbarTogglerDemo02 {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    #entreprise h1 {
+        font-size: 150%;
+    }
 }
