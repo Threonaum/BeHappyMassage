@@ -18,7 +18,7 @@
 }
 
 #philo .philo {
-    width: 400px; /* 90% */
+    width: 450px; /* 90% */
     height: 600px; /* 200% */
     border-radius: 30px;
     box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
