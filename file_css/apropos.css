@@ -1,9 +1,9 @@
 #philo {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 12%;
+    padding-right: 12%;
     padding-top: 50px;
     text-align: center;
-    margin-top: -320px;
+    margin-top: 80px;
 }
 
 #philo_content {
@@ -18,8 +18,8 @@
 }
 
 #philo .philo {
-    width: 90%;
-    height: 200%;
+    width: 400px; /* 90% */
+    height: 600px; /* 200% */
     border-radius: 30px;
     box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
 }
@@ -33,9 +33,9 @@
 
 #content p {
     text-align: justify;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     border-right: 4px solid #79a7d3;
-    padding-right: 50px;
+    padding-right: 25%;
 }
 
 #philo h2 {
@@ -44,11 +44,43 @@
     border-bottom: 4px solid #79a7d3;
     display: inline-block;
     padding-bottom: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 8%;
 }
 
 @media (max-width: 990px) {
     #philo {
-        margin-top: -300px;
+        margin-top: 10%;
+    }
+
+    #philo_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #content {
+        margin-left: 0;
+        padding-right: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    #philo .philo {
+        width: 100%;
+        min-width: 450px;
+        max-width: 450px;
+        margin-bottom: 20px;
+    }
+    #content p {
+        padding-right: 0;
+        border-right: none;
+        margin: 0 auto;
+        max-width: 90%;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    #philo h2 {
+        font-size: 200%;
+        margin-bottom: 20px;
     }
 }
