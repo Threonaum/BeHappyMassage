@@ -56,10 +56,10 @@
             
             <section>
                 <h2>2. Hébergement</h2>
-                <p><strong>Nom de l'Hébergeur :</strong> [Nom de l'hébergeur]</p>
-                <p><strong>Adresse :</strong> [Adresse de l'hébergeur]</p>
-                <p><strong>Téléphone :</strong> [Numéro de téléphone de l'hébergeur]</p>
-                <p><strong>Adresse e-mail :</strong> [Adresse e-mail de l'hébergeur]</p>
+                <p><strong>Nom de l'Hébergeur :</strong> SolidServ</p>
+                <p><strong>Adresse :</strong> 252 avenue jean jaurès décines-charpieu</p>
+                <p><strong>Téléphone :</strong> 07 56 88 96 97</p>
+                <p><strong>Adresse e-mail :</strong> officiel@tyrolium.fr</p>
             </section>
             
             <section>

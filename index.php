@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <?php $page_id = 1; require "@tyrositeframework/start.php"; ?>
 
 

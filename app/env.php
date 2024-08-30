@@ -29,10 +29,10 @@ $SALT = "app/salt." . $APP_ENV . ".php";
  ************************/
 
 //Variable GLOBAL
-$env_name = "TyroExemple";
+$env_name = "BeHappyMassage";
 $env_logo = $SYSTEM_ASSETS . "logo.png";
-$env_url = "https://tyroexemple.fr"; /* for <meta> */
-$env_desc = "My First Site"; /* for <meta> */
+$env_url = "https://BeHappyMassage.fr"; /* for <meta> */
+$env_desc = "website"; /* for <meta> */
 $env_lang = "fr"; /* for <html lang=""> */
 
 // PAGE MANAGEMENT

@@ -4,7 +4,7 @@
             <h2> Bon Cadeau</h2>
             <img src="./file_assets/boncadeau.png" alt="Bon Cadeau pour une prestation de Be Happy Massage">
         </div>
-        <form class="gift">
+        <form action="sendmail.php" method="POST" class="gift">
 
             <label for="nom">Votre Nom :</label>
             <input type="text" id="nom" name="nom" required>
@@ -21,7 +21,7 @@
             <label for="offertpar">Offert par :</label>
             <input type="text" id="offertpar" name="offertpar" required>
 
-            <label for="choix">Préstation, Durée ou Valeur</label>
+            <label for="choix">Prestation, Durée ou Valeur</label>
             <input type="text" id="choix" name="choix" required>
 
             <label for="reception">Préciser si vous voulez recevoir le bon cadeau par mail ou si vous voulez le retirer directement au salon Be Happy Massage</label>
