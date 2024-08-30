@@ -1,0 +1,163 @@
+.nunito-uniquifier {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+#entreprise-cgu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    padding: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+#entreprise-cgu .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#enteprise-cgu .navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+#entreprise-cgu .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+#entreprise-cgu a{
+    margin: 0 30px;
+}
+#entreprise-cgu h1{
+    margin: 0;
+    white-space: nowrap;
+}
+
+#entreprise-cgu nav {
+    display: flex;
+    justify-content: flex-end;
+    /* padding-right: 50px; */
+}
+
+#entreprise-cgu .basic{
+    border-bottom: 4px solid white;
+    height: 44px;
+    padding-bottom: 20px;
+}
+
+#entreprise-cgu .nav-item a{
+    color: black;
+    font-size: 120%;
+    transition: color 0.3 ease;
+    text-decoration: none;
+    /* border-bottom: 4px solid white; */
+    margin-bottom: -20px;
+    white-space: nowrap;
+}
+
+#entreprise-cgu .nav-item .prio{
+    background-color: #8a307f;
+    border-radius: 10px;
+    color: white;
+    font-size: 120%;
+    /* border-bottom: 4px solid white; */
+}
+
+#entreprise-cgu .nav-item .prio:hover{
+    background-color: #ab7aa4;
+}
+
+#entreprise-cgu .basic:hover {
+    /* background-color: #79a7d3; */
+    border-bottom: 4px solid #79a7d3;
+    
+}
+
+@media (max-width: 1308px) {
+
+    #entreprise-cgu h1 {
+        font-size: 2.5vw;
+    }
+
+    #entreprise-cgu a {
+        margin: 0 15px;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        z-index: 1000;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        z-index: 1100;
+    }
+
+    .navbar-collapse.show {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .navbar-nav {
+        width: auto;
+    }
+
+    #entreprise-cgu .nav-item a {
+        background-color: rgb(255, 255, 255, 0.5) ;
+        width: 100%;
+        
+    }
+
+    #entreprise-cgu {
+        box-shadow: none;
+    }
+
+    #entreprise-cgu h1 {
+        font-size: 150%;
+    }
+
+    #entreprise-cgu .basic {
+        border-bottom: none;
+    }
+
+    #entreprise-cgu .basic:hover {
+        border-bottom: none;
+    }
+
+    #entreprise-cgu .nav-item .prio {
+        border-bottom-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+    }
+
+    #navbarTogglerDemo02 {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    #entreprise-cgu h1 {
+        font-size: 150%;
+    }
+}

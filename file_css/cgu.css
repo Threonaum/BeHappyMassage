@@ -1,0 +1,51 @@
+.container .cgu {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+
+}
+
+.cgu h1 {
+    font-size: 2.5em;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 200px;
+}
+
+.cgu h2 {
+    font-size: 1.8em;
+    color: #79a7d3;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.cgu p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.cgu section {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .container .cgu {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .cgu h1 {
+        font-size: 2em;
+    }
+
+    .cgu h2 {
+        font-size: 1.5em;
+    }
+
+    .cgu p {
+        font-size: 1em;
+    }
+}
