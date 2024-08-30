@@ -66,10 +66,10 @@
         width: 100%;
     }
 
-    #philo .philo {
+    #philo .philo  {
         width: 100%;
-        min-width: 450px;
-        max-width: 450px;
+        /* min-width: 450px;
+        max-width: 450px; */
         margin-bottom: 20px;
     }
     #content p {
@@ -88,7 +88,19 @@
 }
 
 @media (max-width: 600px) {
+
+    #philo {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     #content p {
         font-size: 2.5vw;
+    }
+
+    #philo .philo img {
+        width: 100vw;
+        height: auto;
+        display: block;
     }
 }

@@ -158,6 +158,7 @@
 
 @media (max-width: 500px) {
     #entreprise-cgu h1 {
-        font-size: 150%;
+        font-size: 130%;
+        font-weight: bold;
     }
 }

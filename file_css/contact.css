@@ -125,10 +125,14 @@ input[type="checkbox"] {
     #check label {
         font-size: 1.2vw;
     }
+    
+    #gauche_contact {
+        width: 80%;
+    }
 }
 
 @media (max-width: 750px) {
     #contact_infos {
-        width: 60%;
+        width: 80%;
     }
 }
