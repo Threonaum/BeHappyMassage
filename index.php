@@ -11,13 +11,11 @@
 
     <?php $cp_apropos(); ?>
 
-    <?php $cp_prestation(); ?>
+
 
     <?php $cp_boncadeau(); ?>
 
-    <?php $cp_contact(); ?>
 
-    <?php $cp_faq(); ?>
 
 </main>
 

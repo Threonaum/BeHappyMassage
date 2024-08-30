@@ -4,10 +4,12 @@
     align-items: center;
     margin: 0;
     margin-top: 50px;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 #giftform h2 {
-    font-size: 300%;
+    font-size: 4vw;
 }
 
 .allform {
@@ -21,7 +23,7 @@
 }
 
 #giftform {
-    width: 700px;
+    width: 40%;
 }
 
 #giftform img {
@@ -67,4 +69,30 @@
 
 .submit-btn:hover {
     background-color: #83547d;
+}
+
+@media (max-width: 1025px) {
+    #all {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    
+}
+
+@media (max-width: 850px) {
+
+    #giftform {
+        width: 60%;
+        
+    }
+}
+
+@media (max-width: 540px) {
+
+    #giftform {
+        width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
