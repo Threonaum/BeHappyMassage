@@ -47,10 +47,9 @@
             <section>
                 <h2>1. Éditeur du Site</h2>
                 <p><strong>Nom de l'Entreprise :</strong> Be Happy Massage</p>
-                <p><strong>Forme Juridique :</strong> [Indiquer la forme juridique, par exemple : SAS, SARL, etc.]</p>
+                <p><strong>Forme Juridique :</strong> Auto-entrepreneur</p>
                 <p><strong>Siège Social :</strong> 671 Rue Aimé Bonneville 01200 Valserhône</p>
-                <p><strong>Numéro SIRET :</strong> [Numéro SIRET]</p>
-                <p><strong>Numéro de TVA Intracommunautaire :</strong> [Numéro de TVA]</p>
+                <p><strong>Numéro SIRET :</strong> 84225081300016</p>
                 <p><strong>Téléphone :</strong> 06 01 85 49 03</p>
                 <p><strong>Directeur de la Publication :</strong> DELANOUE Virginie</p>
             </section>
