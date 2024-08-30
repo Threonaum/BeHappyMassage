@@ -103,3 +103,31 @@
     font-size: 14px;
     color: #a19d9d;
     }
+
+    @media (max-width: 1000px) {
+        
+        .copyright-area .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .copyright-text, .footer-menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .footer-menu ul {
+            padding: 0;
+            margin: 10px 0 0 0;
+        }
+        
+        .footer-menu ul li {
+            display: inline-block;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }

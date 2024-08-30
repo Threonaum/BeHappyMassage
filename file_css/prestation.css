@@ -22,7 +22,7 @@
 }
 
 .wrapper {
-    width: 1140px;
+    width: 90%;
 }
 
 .ligne {
@@ -346,4 +346,11 @@
     height: 50px;
     margin-bottom: 20px;
     font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    #allprestations {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 }

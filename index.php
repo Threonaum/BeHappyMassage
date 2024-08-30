@@ -11,7 +11,7 @@
 
     <?php $cp_apropos(); ?>
 
-
+    <?php $cp_prestation(); ?>
 
     <?php $cp_boncadeau(); ?>
 
