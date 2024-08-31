@@ -31,7 +31,7 @@ $SALT = "app/salt." . $APP_ENV . ".php";
 //Variable GLOBAL
 $env_name = "BeHappyMassage";
 $env_logo = $SYSTEM_ASSETS . "logo.jpeg";
-$env_url = "https://tyroexemple.fr"; /* for <meta> */
+$env_url = "https://behappymassage.fr"; /* for <meta> */
 $env_desc = "My Web Site"; /* for <meta> */
 $env_lang = "fr"; /* for <html lang=""> */
 
