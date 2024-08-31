@@ -54,13 +54,13 @@
     /* padding-right: 50px; */
 }
 
-#entreprise .basic{
+#entreprise .basic {
     border-bottom: 4px solid white;
     height: 44px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
-#entreprise .nav-item a{
+#entreprise .nav-item a {
     color: black;
     font-size: 120%;
     transition: color 0.3 ease;
@@ -85,7 +85,6 @@
 #entreprise .basic:hover {
     /* background-color: #79a7d3; */
     border-bottom: 4px solid #79a7d3;
-    
 }
 
 @media (max-width: 1308px) {
