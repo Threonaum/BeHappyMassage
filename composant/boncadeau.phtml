@@ -4,7 +4,7 @@
             <h2> Bon Cadeau</h2>
             <img src="./file_assets/boncadeau.png" alt="Bon Cadeau pour une prestation de Be Happy Massage">
         </div>
-        <form class="gift">
+        <form class="gift" action="https://formspree.io/f/meojnbgz" method="POST">
 
             <label for="nom">Votre Nom :</label>
             <input type="text" id="nom" name="nom" required>
@@ -15,20 +15,40 @@
             <label for="mail">Votre Mail :</label>
             <input type="email" id="mail" name="mail" required>
 
+            <label for="telephone">Votre Numéro de Téléphone :</label>
+            <input type="tel" id="phone" name="phone" required>
+
             <label for="attention">A l'attention de :</label>
             <input type="text" id="attention" name="attention" required>
 
             <label for="offertpar">Offert par :</label>
             <input type="text" id="offertpar" name="offertpar" required>
 
-            <label for="choix">Préstation, Durée ou Valeur</label>
-            <input type="text" id="choix" name="choix" required>
+            <label for="choix">Que souhaitez-vous offrir ?</label>
+            <!-- <input type="text" id="choix" name="choix" required> -->
+            <select name="type" id="type" required>
+                    <option value="" disabled selected>Choississez votre cadeau</option>
+                    <option value="prestation">Prestation</option>
+                    <option value="durée">Durée</option>
+                    <option value="valeur">Valeur</option>
+            </select>
 
-            <label for="reception">Préciser si vous voulez recevoir le bon cadeau par mail ou si vous voulez le retirer directement au salon Be Happy Massage</label>
-            <input type="text" id="reception" name="reception" required>
+            <label for="reception">Comment voulez-vous récupérer le bon cadeau ?</label>
+            <!-- <input type="text" id="reception" name="reception" required> -->
+            <select name="bonCadeau" id="bonCadeau" required>
+                    <option value="" disabled selected>Choississez</option>
+                    <option value="cabinet">Directement au salon de Be Happy Massage</option>
+                    <option value="email">Directement par mail</option>
+            </select>
 
             <label for="reglement">Virement, Espèces ou Chèque :</label>
-            <input type="text" id="reglement" class="last" name="reglement" required>
+            <!-- <input type="text" id="reglement" class="last" name="reglement" required> -->
+            <select name="paiement" id="paiement" required>
+                    <option value="" disabled selected>Choississez un mode de paiement</option>
+                    <option value="virement">Virement</option>
+                    <option value="especes">Espèces</option>
+                    <option value="cheque">Chèque</option>
+            </select>
 
             <div id="check">
 
@@ -38,7 +58,7 @@
             </div>
 
             <input type="submit" value="Envoyer" class="submit-btn">
-
+            <p class="important">* Les bons cadeaux <strong>sont valables 6 mois</strong>. Voir nos conditions d'utilisation pour plus de détails.</p>
         </form>
     </div>
 </div>

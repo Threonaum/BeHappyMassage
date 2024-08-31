@@ -33,6 +33,15 @@
     height: auto;
 }
 
+#philo img.behappymassage {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
+}
+
 #content p {
     text-align: justify;
     font-size: 1.5vw;
@@ -41,12 +50,12 @@
 }
 
 #philo h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 360%;
     border-bottom: 4px solid #79a7d3;
     display: inline-block;
     padding-bottom: 30px;
-    margin-bottom: 8%;
+    margin-bottom: 4%;
 }
 
 @media (max-width: 990px) {

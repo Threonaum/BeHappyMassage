@@ -135,6 +135,11 @@
             <h2>8. Contact</h2>
             <p>Pour toute question relative aux Conditions Générales d'Utilisation, veuillez nous contacter via le formulaire de contact sur le site ou par téléphone.</p>
         </section>
+
+        <section>
+            <h2>8. Bon Cadeau</h2>
+            <p>Les bons cadeaux sont valables 6 mois à partir de la date d'émission de ce dernier. Possibilité de prolonger la durée du bon cadeau si et seulement si la personne prend contact avec Be Happy Massage avant les 6 mois pour en faire la demande.</p>
+        </section>
     
 </div>
 

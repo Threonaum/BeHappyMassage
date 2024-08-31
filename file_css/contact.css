@@ -20,7 +20,20 @@
 }
 
 #informations svg {
-    color: #aa5ba1;
+    color: #000000;
+}
+
+#informations .wheel {
+    width: 25px;
+    height: 25px;
+}
+
+#gauche_contact p,
+#gauche_contact svg,
+#gauche_contact a {
+    display: block;
+    margin: 10px auto;
+
 }
 
 #gauche_contact {
