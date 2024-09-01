@@ -125,6 +125,10 @@ input[type="checkbox"] {
     margin: 0 4px 8px 0;
 }
 
+#check {
+    margin-top: 1px;
+}
+
 #check label {
     font-size: 0.8vw;
 }
@@ -136,7 +140,7 @@ input[type="checkbox"] {
     }
 
     #check label {
-        font-size: 1.2vw;
+        font-size: 15px;
     }
     
     #gauche_contact {
