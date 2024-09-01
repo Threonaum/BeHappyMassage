@@ -101,6 +101,7 @@
     #philo {
         padding-left: 0;
         padding-right: 0;
+        margin-top: 100px;
     }
 
     #content p {

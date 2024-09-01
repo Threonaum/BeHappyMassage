@@ -32,7 +32,7 @@ $SALT = "app/salt." . $APP_ENV . ".php";
 $env_name = "BeHappyMassage";
 $env_logo = $SYSTEM_ASSETS . "logo.jpeg";
 $env_url = "https://behappymassage.fr"; /* for <meta> */
-$env_desc = "My Web Site"; /* for <meta> */
+$env_desc = "Fasciathérapie- Auriculothérapie- Bien-être en naturopathie"; /* for <meta> */
 $env_lang = "fr"; /* for <html lang=""> */
 
 // PAGE MANAGEMENT
