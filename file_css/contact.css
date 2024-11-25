@@ -78,8 +78,12 @@
     justify-content: space-between;
 }
 
+#gauche_contact .first {
+    margin-right: 25px;
+}
+
 #gauche_contact .second {
-    margin-left: 50px;
+    margin-left: 25px;
 }
 
 .informations {
@@ -157,8 +161,26 @@ input[type="checkbox"] {
     }
 }
 
+@media (max-width: 900px) {
+
+    .iframe {
+        max-width: 70%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
 @media (max-width: 750px) {
     #contact_infos {
         width: 80%;
     }
+}
+
+@media (max-width: 700px) {
+
+    .iframe {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
 }

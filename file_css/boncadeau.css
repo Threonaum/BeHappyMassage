@@ -45,7 +45,8 @@
 
 .gift input[type="text"],
 .gift input[type="email"],
-.gift input[type="submit"] {
+.gift input[type="submit"],
+.gift input[type="tel"] {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
