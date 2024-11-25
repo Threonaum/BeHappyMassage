@@ -161,26 +161,21 @@ input[type="checkbox"] {
     }
 }
 
-@media (max-width: 900px) {
-
-    .iframe {
-        max-width: 70%;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-}
-
 @media (max-width: 750px) {
     #contact_infos {
         width: 80%;
-    }
+    } 
 }
 
-@media (max-width: 700px) {
-
-    .iframe {
-        margin-left: 2px;
-        margin-right: 2px;
+@media (max-width: 900px) {
+    #gauche_contact .iframe {
+        flex-direction: column;
+        align-items: center;
+        height: 700px;
     }
 
+    #gauche_contact .iframe iframe {
+        margin: 10px 0;
+        width: 100%;
+    }
 }
