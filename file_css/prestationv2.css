@@ -52,7 +52,7 @@
     top: 10%;
     right: -2px;
     height: 80%;
-    border-left: 2px solid rgba(0,0,0,0.025);*/
+    border-left: 2px solid rgba(0,0,0,0.025);
     }
 
     .card .additional .user-card svg {
@@ -105,7 +105,7 @@
     left: 1rem;
     right: 1rem;
     top: auto;
-    color: #af65a7;
+    color: #000000;
     background-color: rgba(172, 153, 153, 0.4);
     backdrop-filter: blur(20px);
     border-radius: 15px;
@@ -151,6 +151,7 @@
 
     .card .general h2 {
     font-size: 30px;
+    color: #af65a7;
     }
 
     .card .general .more {
@@ -164,3 +165,7 @@
     width: 500px;
     height: 500px;
     }
+
+
+    
+
