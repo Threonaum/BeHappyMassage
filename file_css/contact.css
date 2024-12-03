@@ -148,23 +148,26 @@ input[type="checkbox"] {
 
 
 .facebook-button button {
-    background-color: #aa5ba1; /* Couleur bleu Facebook */
-    color: white; /* Texte blanc */
+    background-color: #aa5ba1;
+    color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .facebook-button button:hover {
-    background-color: #83547d; /* Couleur plus foncée au survol */
+    background-color: #83547d;
 }
 
 .facebook-button button:active {
-    background-color: #83547d; /* Couleur encore plus foncée lorsqu'il est actif */
-    transform: scale(0.98); /* Légère réduction de taille au clic */
+    background-color: #83547d;
+    transform: scale(0.98);
 }
 
 @media (max-width: 1300px) {
