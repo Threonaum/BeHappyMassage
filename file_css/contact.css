@@ -146,6 +146,27 @@ input[type="checkbox"] {
     font-size: 0.8vw;
 }
 
+
+.facebook-button button {
+    background-color: #aa5ba1; /* Couleur bleu Facebook */
+    color: white; /* Texte blanc */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.facebook-button button:hover {
+    background-color: #83547d; /* Couleur plus foncée au survol */
+}
+
+.facebook-button button:active {
+    background-color: #83547d; /* Couleur encore plus foncée lorsqu'il est actif */
+    transform: scale(0.98); /* Légère réduction de taille au clic */
+}
+
 @media (max-width: 1300px) {
     #contact {
         flex-direction: column;
