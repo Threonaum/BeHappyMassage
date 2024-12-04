@@ -248,6 +248,15 @@
     width: 250px;
 }
 
+.card1.active .content {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.card1.active .img-content {
+    opacity: 0;
+}
+
 /* On fait en sorte que les détails et le titre disparaissent au survol de la carte */
 .card1:hover .details, 
 .card1:hover .details-enfant,
@@ -256,26 +265,9 @@
     transition: opacity 0.3s ease-in-out;
 }
 
-/* Pour les écrans plus petits */
-@media (max-width: 768px) {
-    .card1:hover .content,
-    .card1:hover .img-content {
-        opacity: 1; /* On annule le hover */
-    }
 
-    /* Simuler un effet "tap" via :active ou :focus-within */
-    .card1:focus-within .content, 
-    .card1:focus-within .img-content {
-        opacity: 1; /* Afficher le contenu au tap */
-    }
+@media (max-width: 992px) {
+    
 
-    .card1 {
-        outline: none; /* Supprime le contour par défaut au focus */
-        transition: opacity 0.6s ease-in-out; /* Pour un effet fluide */
-    }
 
-    /* Supprimer les effets de hover */
-    .card1:hover {
-        background-color: transparent;
-    }
 }

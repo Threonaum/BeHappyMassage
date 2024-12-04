@@ -305,3 +305,18 @@
             </div>
         </div>
 </div>
+
+<script>
+
+    // Sélectionner toutes les cartes
+const cards = document.querySelectorAll('.card1');
+
+// Ajouter un écouteur d'événement sur chaque carte
+cards.forEach(card => {
+    card.addEventListener('click', () => {
+        // Basculer la classe "active" sur la carte cliquée
+        card.classList.toggle('active');
+    });
+});
+
+</script>
