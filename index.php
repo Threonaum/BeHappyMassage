@@ -13,6 +13,10 @@
 
     <?php $cp_prestation(); ?>
 
+    <?php $cp_prestationv2(); ?>
+
+    <?php $cp_prestationv3(); ?>
+
     <?php $cp_boncadeau(); ?>
 
     <?php $cp_contact(); ?>
