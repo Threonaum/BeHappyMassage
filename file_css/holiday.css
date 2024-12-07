@@ -19,6 +19,17 @@
 
 }
 
+#holiday_annonce {
+    margin-bottom: 10px;
+    font-size: 360%;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: 1%;
+    margin-top: 100px;
+    color: #0b4e18;
+    position: relative;
+}
+
 #holiday_title::after {
     content: "";
     display: block;
