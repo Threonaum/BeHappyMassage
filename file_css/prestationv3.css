@@ -33,13 +33,13 @@
     }
 
     .ligne .container-all {
-        width: 400px;
-        height: 350px;
+        width: 550px;
+        height: 450px;
         margin-left: 5px;
-        margin-right: 5px;
-        /* border: 1px solid rgb(0, 0, 0, 0); */
-        box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
-        border-radius: 50px;
+        margin-right: 8px;
+        border: 1px solid rgb(115, 112, 112);
+        box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
         overflow: hidden;
         transition: 0.2s linear;
         background-color: white;
@@ -51,8 +51,8 @@
     
     
     .card-container {
-        width: 400px;
-        height: 350px;
+        width: 600px;
+        height: 500px;
         position: relative;
         border-radius: 10px;
     }
@@ -82,21 +82,6 @@
     }
     
     .card1 .img-content img {
-        width: 400px;
-        height: 350px;
-        fill: #212121;
-    }
-
-    .card1 .image-content {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: scale 0.6s ease-in-out;
-    }
-
-    .card1 .image-content img {
         width: 500px;
         height: 400px;
         fill: #212121;
@@ -118,22 +103,11 @@
         border-radius: 5px;
         opacity: 0;
         pointer-events: none;
-        
     }
     
     .card1 .content .heading {
         font-size: 32px;
         font-weight: 700;
-        background-color: rgba(142, 28, 128, 0.3);
-        border-radius: 10px;
-    }
-
-    .card1 .content .texte {
-        background-color: rgba(142, 28, 128, 0.3);
-        border-radius: 10px;
-        color: rgb(255, 255, 255);
-        font-size: 19px;
-        
     }
     
     .card1:hover .content {
@@ -143,61 +117,10 @@
     .card1:hover .img-content {
         scale: 1.2;
         filter: blur(5px);
+        
     }
     
     .card1:hover .img-content img {
         fill: transparent;
     }
-
-    .card1:hover .image-content {
-        scale: 1.2;
-        filter: blur(5px);
-    }
     
-    .card1:hover .image-content img {
-        fill: transparent;
-    }
-
-    .img-content {
-        position: relative;
-        width: 100%;
-        height: 100%;
-    }
-    
-    .details {
-        position: absolute;
-        bottom: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-        color: white;
-        font-size: 16px;
-        background-color: rgba(142, 28, 128, 0.4);
-        padding: 5px 10px;
-        border-radius: 8px;
-        text-align: center;
-        z-index: 1;
-        pointer-events: none;
-    }
-    
-    
-    .img-content img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-    .details-enfant {
-        position: absolute;
-        bottom: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-        color: white;
-        font-size: 16px;
-        background-color: rgba(142, 28, 128, 0.4);
-        padding: 5px 10px;
-        border-radius: 8px;
-        text-align: center;
-        z-index: 1;
-        pointer-events: none;
-        width: 250px;
-    }
