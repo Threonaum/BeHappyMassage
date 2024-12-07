@@ -10,21 +10,37 @@
 #holiday_title {
     margin-bottom: 10px;
     font-size: 360%;
-    border-bottom: 4px solid #79a7d3;
     display: inline-block;
     padding-bottom: 30px;
     margin-bottom: 4%;
     margin-top: 100px;
     color: #aa5ba1;
+    position: relative; /* Nécessaire pour placer le trait */
+
+}
+
+#holiday_title::after {
+    content: "";
+    display: block;
+    width: 30%; /* Ajuste la largeur du trait */
+    height: 4px; /* Épaisseur du trait */
+    background-color: #79a7d3; /* Couleur du trait */
+    margin: 0 auto; /* Centre le trait */
+    position: absolute;
+    bottom: 0; /* Positionné en bas du padding */
+    left: 0;
+    right: 0;
 }
 
 #horaires_holiday ul {
     list-style-type: none;
     padding: 0;
     margin: 20px 0;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.2;
     font-size: bold;
+    margin-top: -30px;
+    color: #aa5ba1;
 }
 
 #picture_holiday {
