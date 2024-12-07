@@ -67,6 +67,22 @@
     box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 1300px) {
+    #holiday_title::after {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    #holiday_annonce {
+        font-size: 250%;
+    }
+
+    #horaires_holiday ul {
+        font-size: 1.1rem;
+    }
+}
+
 @media (max-width: 500px) {
     #picture_holiday img {
         display: none;
