@@ -101,6 +101,13 @@
     border-bottom: 4px solid #79a7d3;
 }
 
+#entreprise .nav-item a:active {
+    transform: scale(0.95); /* Réduction légère pour l'effet pressé */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3); /* Simule un effet d'enfoncement */
+    transition: transform 0.1s ease;
+}
+
+
 @media (max-width: 1308px) {
 
     #entreprise h1 {
@@ -192,6 +199,17 @@
 
     #navbarTogglerDemo02 {
         margin-top: 5px;
+    }
+
+    #entreprise .nav-item a.active {
+        background-color: rgba(142, 28, 128, 0.2);
+        color: #8a307f;
+        width: 100%; /* S'étend sur toute la largeur */
+    }
+
+    #entreprise .nav-item a:active {
+        transform: scale(0.95);
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
     }
 }
 

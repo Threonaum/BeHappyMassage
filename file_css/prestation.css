@@ -327,7 +327,6 @@
     padding: 20px 10px 0 10px;
     font-size: 0.8rem;
     height: 50px;
-    
 }
 
 /* Massage visage */
@@ -348,11 +347,13 @@
     margin-top: auto;
     height: 50px;
     font-weight: bold;
+    margin-bottom: 25px;
+    padding-top: -15px;
 }
 
-.prestation .price p {
+/* .prestation .price p {
     padding-bottom: 30px;
-}
+} */
 
 
 /* Moxibustion */
