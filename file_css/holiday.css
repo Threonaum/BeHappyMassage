@@ -89,4 +89,15 @@
     #picture_holiday img {
         display: none;
     }
+
+    #horaires_holiday ul {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 450px) {
+
+    #horaires_holiday ul {
+        font-size: 0.9rem;
+    }
 }
