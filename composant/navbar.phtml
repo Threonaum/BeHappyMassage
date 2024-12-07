@@ -25,4 +25,18 @@
                     </ul>
                 </div>
             </div>
+            <script>
+                document.querySelectorAll('#navbarTogglerDemo02 .nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                const navbarToggler = document.querySelector('.navbar-toggler');
+                const navbarCollapse = document.querySelector('#navbarTogglerDemo02');
+
+                // Vérifie si le menu est ouvert, puis déclenche un clic pour le fermer
+                if (navbarCollapse.classList.contains('show')) {
+                    navbarToggler.click(); // Simule un clic pour fermer
+                }
+                });
+                });
+
+            </script>
         </nav>
