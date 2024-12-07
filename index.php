@@ -9,6 +9,8 @@
 
     <?php $cp_carousel(); ?>
 
+    <?php $cp_holidays(); ?>
+
     <?php $cp_apropos(); ?>
 
     <?php $cp_prestation(); ?>
