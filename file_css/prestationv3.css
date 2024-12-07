@@ -54,9 +54,8 @@
 .card-title {
     text-align: center;
     font-size: 1.4rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #333; 
-    font-weight: bold;
 }
 
 /* Pour la carte */
@@ -181,15 +180,16 @@
     padding-right: 5px;
 }
 
+/* Au survol de la carte */
 .card1:hover .content {
     opacity: 1;
     transition: opacity 0.6s ease-in-out;
 }
 
 .card1:hover .img-content {
-    opacity: 0;
-    scale: 1;
-    filter: none;
+    opacity: 0; /* Cache l'image au survol */
+    scale: 1; /* Supprime l'effet de zoom */
+    filter: none; /* Supprime le flou */
 }
 
 .card1:hover .img-content img {

@@ -115,36 +115,11 @@
 
 @media (max-width: 992px) {
 
-    #entreprise .basic:hover {
-        border-bottom: inherit;
-    }
-
-    #entreprise .nav-item .prio:hover{
-        color: inherit;
-        box-shadow: inherit;
-    }
-
-    #entreprise .nav-item .prio {
-        border: none; /* Supprime les bordures */
-        border-radius: 0; /* Supprime les arrondis */
-        box-shadow: none; /* Supprime les ombres */
-        width: 100%; /* Force la largeur à 100% */
-        text-align: left; /* Aligne le texte */
-        margin: 0; /* Supprime les marges */
-        padding-left: 15px;
-
-    }
-
-    #entreprise .navbar-nav {
-        background-color: white;
-    }
-    
     .navbar-collapse {
         position: absolute;
         top: 100%;
         right: 0;
         z-index: 1000;
-        background-color: white;
     }
 
     .navbar-toggler {
@@ -156,7 +131,6 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-top: 0;
     }
 
     .navbar-nav {
@@ -164,8 +138,9 @@
     }
 
     #entreprise .nav-item a {
-        background-color: rgb(255, 255, 255) ;
+        background-color: rgb(255, 255, 255, 0.5) ;
         width: 100%;
+        
     }
 
     #entreprise {
@@ -180,15 +155,14 @@
         border-bottom: none;
     }
 
-    /* #entreprise .basic:hover {
+    #entreprise .basic:hover {
         border-bottom: none;
-    } */
+    }
 
-        
-    /* #entreprise .nav-item .prio {
+    #entreprise .nav-item .prio {
         border-bottom-left-radius: 30%;
         border-bottom-right-radius: 30%;
-    } */
+    }
 
     #navbarTogglerDemo02 {
         margin-top: 5px;
