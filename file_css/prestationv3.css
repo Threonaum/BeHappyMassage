@@ -10,9 +10,8 @@
         font-size: 360%;
         border-bottom: 4px solid #79a7d3;
         display: inline-block;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
         margin-bottom: 100px;
-        margin-top: 150px;
     }
 
     #prestation {
@@ -71,13 +70,6 @@
         height: 100%;
         border-radius: inherit;
         overflow: hidden;
-        position: relative;
-        background-color: transparent; /* Défaut transparent */
-        transition: background-color 0.6s ease-in-out; /* Transition pour le fond */
-    }
-    
-    .card1:hover {
-        background-color: rgba(142, 28, 128, 0.8); /* Couleur de fond au hover */
     }
     
     .card-title {
@@ -103,15 +95,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: opacity 0.6s ease-in-out, scale 0.6s ease-in-out; /* Transition ajoutée */
+        transition: scale 0.6s ease-in-out;
     }
     
     .card1 .img-content img {
-        width: 100%;
-        height: 100%;
-        display: block;
-        transition: opacity 0.6s ease-in-out; /* Transition pour l'opacité */
-        object-fit: cover;
+        width: 400px;
+        height: 350px;
+        fill: #212121;
     }
 
     .card1 .image-content {
@@ -138,12 +128,14 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        color: white;
+        gap: 10px;
+        color: #e8e8e8;
+        padding: 20px 24px;
+        line-height: 1.5;
+        border-radius: 5px;
         opacity: 0;
         pointer-events: none;
-        background-color: rgba(142, 28, 128, 0.8); /* Fond de couleur pour le texte */
-        transition: opacity 0.6s ease-in-out;
+        
     }
     
     .card1 .content .heading {
@@ -158,38 +150,32 @@
         border-radius: 10px;
         color: rgb(255, 255, 255);
         font-size: 19px;
-        padding-left: 5px;
-        padding-right: 5px;
+        
     }
 
     .card1 .content .texte-grand {
         background-color: rgba(142, 28, 128, 0.3);
         border-radius: 10px;
         color: rgb(255, 255, 255);
-        font-size: 19px;
-        padding-left: 5px;
-        padding-right: 5px;
+        font-size: 17px;
+        
     }
 
     .card1 .content .texte-grand2 {
         background-color: rgba(142, 28, 128, 0.3);
         border-radius: 10px;
         color: rgb(255, 255, 255);
-        font-size: 16px;
-        padding-left: 5px;
-        padding-right: 5px;
+        font-size: 15px;
         
     }
     
     .card1:hover .content {
         opacity: 1;
-        transition: opacity 0.6s ease-in-out;
     }
     
     .card1:hover .img-content {
-        opacity: 0; /* Cache l'image au survol */
-        scale: 1; /* Supprime l'effet de zoom */
-        filter: none; /* Supprime le flou */
+        scale: 1.2;
+        filter: blur(5px);
     }
     
     .card1:hover .img-content img {
