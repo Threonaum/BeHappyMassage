@@ -86,9 +86,9 @@
 }
 
 @media (max-width: 500px) {
-    #picture_holiday img {
+    /* #picture_holiday img {
         display: none;
-    }
+    } */
 
     #horaires_holiday ul {
         font-size: 1rem;
