@@ -9,7 +9,7 @@
 
     <?php $cp_carousel(); ?>
 
-    <?php $cp_holidays(); ?>
+    <!-- $cp_holidays(); -->
 
     <?php $cp_apropos(); ?>
 
