@@ -10,6 +10,8 @@ app/salt.prod.php
 
 # Lib
 
-# file/
+# file/.
+
+.env
 
 # Other files and folders
