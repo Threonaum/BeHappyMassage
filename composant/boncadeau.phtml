@@ -1,55 +1,58 @@
 <div id="all">
     <div id="giftform" class="allform">
         <div id="gauche">
-            <h2> Bon Cadeau</h2>
-            <img src="./file_assets/boncadeau.png" alt="Bon Cadeau pour une prestation de Be Happy Massage">
+            <h2>Bon Cadeau</h2>
+            <img src="./file_assets/boncadeau.png" loading="lazy" alt="Bon Cadeau pour une prestation de Be Happy Massage">
         </div>
         <form class="gift" action="https://formspree.io/f/xvgpyvpl" method="POST">
 
             <label for="nom">Votre Nom :</label>
-            <input type="text" id="nom" name="nom" required>
+            <input type="text" id="nom" name="nom" autocomplete="name" placeholder="Ex: Jean" required>
 
             <label for="prenom">Votre Prénom :</label>
-            <input type="text" id="prenom" name="prenom" required>
+            <input type="text" id="prenom" name="prenom" autocomplete="family-name" placeholder="Ex: Dupont" required>
 
             <label for="email">Votre Mail :</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="Ex: jean.dupont@email.com" required>
 
             <label for="telephone">Votre Numéro de Téléphone :</label>
-            <input type="tel" id="phone" name="phone" required>
+            <input type="tel" id="telephone" name="telephone"
+                pattern="^(\+33|0)[1-9](\d{2}){4}$" 
+                title="Format attendu : 06XXXXXXXX ou +336XXXXXXXX"
+                autocomplete="tel"
+                aria-label="Entrez votre numéro au format 06XXXXXXXX ou +336XXXXXXXX"
+                placeholder="Ex: 0612345678"
+                required>
 
-            <label for="attention">A l'attention de :</label>
-            <input type="text" id="attention" name="attention" required>
+            <label for="attention">À l'attention de :</label>
+            <input type="text" id="attention" name="attention" placeholder="Nom du destinataire" minlength="3" maxlength="25" required>
 
             <label for="offertpar">Offert par :</label>
-            <input type="text" id="offertpar" name="offertpar" required>
+            <input type="text" id="offertpar" name="offertpar" placeholder="Votre nom ou celui du groupe" minlength="3" maxlength="25" required>
 
             <label for="choix">Offrez une prestation, une durée ou une valeur :</label>
-            <!-- <input type="text" id="choix" name="choix" required> -->
-            <input type="text" name="type" id="type" required>
+            <input type="text" name="choix" id="choix" placeholder="Ex: Massage d'1h, 50€" required>
 
             <label for="reception">Comment voulez-vous récupérer le bon cadeau ?</label>
-            <!-- <input type="text" id="reception" name="reception" required> -->
-            <select name="bonCadeau" id="bonCadeau" required>
-                    <option value="" disabled selected>Choississez</option>
-                    <option value="cabinet">Retrait à Be Happy Massage</option>
-                    <option value="email">Par mail</option>
+            <select name="bonCadeau" id="reception" required>
+                <option value="" disabled selected>Choisissez</option>
+                <option value="cabinet">Retrait à Be Happy Massage</option>
+                <option value="email">Par mail</option>
             </select>
 
-            <label for="reglement">Virement, Espèces ou Chèque :</label>
-            <!-- <input type="text" id="reglement" class="last" name="reglement" required> -->
-            <select name="paiement" id="paiement" required>
-                    <option value="" disabled selected>Choississez un mode de paiement</option>
-                    <option value="virement">Virement</option>
-                    <option value="especes">Espèces</option>
-                    <option value="cheque">Chèque</option>
+            <label for="reglement">Mode de paiement :</label>
+            <select name="paiement" id="reglement" required>
+                <option value="" disabled selected>Choisissez un mode de paiement</option>
+                <option value="virement">Virement</option>
+                <option value="especes">Espèces</option>
+                <option value="cheque">Chèque</option>
             </select>
 
             <div id="check">
-
                 <input type="checkbox" id="checkbox" name="checkboxboncadeau" required>
-                <label for="checkbox">Je confirme que les informations renseignées soient conservées par Be Happy Massage afin de me contacter.</label>
-            
+                <label for="checkbox">
+                    Je confirme que mes informations seront conservées par Be Happy Massage pour me contacter. 
+                </label>
             </div>
 
             <input type="submit" value="Envoyer" class="submit-btn">
@@ -57,3 +60,15 @@
         </form>
     </div>
 </div>
+
+<script defer>
+    document.querySelector('.gift').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        
+        alert("Merci ! Votre demande a bien été envoyée.");
+        
+        
+        document.querySelector('.gift').reset();
+    });
+</script>

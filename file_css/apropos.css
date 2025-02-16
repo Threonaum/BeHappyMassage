@@ -77,8 +77,6 @@
 
     #philo .philo  {
         width: 100%;
-        /* min-width: 450px;
-        max-width: 450px; */
         margin-bottom: 20px;
     }
     #content p {
@@ -96,15 +94,14 @@
     }
 
     #philo .philo img {
-        max-width: 80%;  /* L'image prend 80% de la largeur du parent */
+        max-width: 80%;
         margin-bottom: 30px;
     }
 }
 
 @media (max-width: 768px) {
-    /* Sur les écrans de moins de 768px (c'est le point où le menu burger devient actif) */
     #philo .philo img {
-        max-width: 70%;  /* L'image prend 70% de la largeur du parent */
+        max-width: 70%;
         margin-bottom: 20px;
     }
 }
@@ -118,8 +115,8 @@
     }
 
     #philo .philo img {
-        width: 60%;  /* L'image est réduite à 60% de la largeur du parent */
-        height: auto; /* Assurer une proportion correcte */
+        width: 60%;
+        height: auto;
     }
 
     #content p {
@@ -135,7 +132,7 @@
     }
 
     #philo .philo img {
-        width: 50%;  /* L'image est encore plus petite */
-        height: auto; /* Proportions respectées */
+        width: 50%;
+        height: auto;
     }
 }

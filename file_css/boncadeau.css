@@ -80,6 +80,7 @@
     color: red;
 }
 
+
 @media (max-width: 1025px) {
     #all {
         padding-left: 1%;
