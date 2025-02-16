@@ -11,6 +11,8 @@
 
     <!-- $cp_holidays(); -->
 
+    <!-- $cp_massage_type(); -->
+
     <?php $cp_apropos(); ?>
 
     <?php $cp_prestation(); ?>

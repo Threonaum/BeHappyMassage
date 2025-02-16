@@ -1,0 +1,67 @@
+#massage_type {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+#massage_type h2 {
+    margin-bottom: 20px;
+    font-size: 280%;
+    border-bottom: 4px solid #79a7d3;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+#section_left, #section_droite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.massage_picture {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+#section_container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.massage_picture:hover {
+    transform: translateY(-5px) scale(1.02); 
+    box-shadow: 0 10px 15px 2px rgba(170, 91, 161, 0.4);
+}
+
+#massage_type a {
+    background-color: #8a307f;
+    border-radius: 10px;
+    color: white;
+    font-size: 180%;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #8a307f;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #8a307f;
+    box-shadow: inset 0 0 0 0 #8a307f;
+    width: 110%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#massage_type a:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #ae5da4;
+}
+

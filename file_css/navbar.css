@@ -12,13 +12,14 @@
     justify-content: space-between;
     height: 20px;
     padding: 50px;
+    padding-right: 0px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
     background-color: white;
-    box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 #entreprise .container-fluid {
@@ -105,6 +106,27 @@
     transform: scale(0.95); /* Réduction légère pour l'effet pressé */
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3); /* Simule un effet d'enfoncement */
     transition: transform 0.1s ease;
+}
+
+
+
+@media (max-width: 1500px) {
+
+    #entreprise h1 {
+        font-size: 2.5vw;
+    }
+
+    #entreprise a {
+        margin: 0 15px;
+    }
+
+    #entreprise .nav-item a {
+        font-size: 100%;
+    }
+
+    #entreprise .nav-item .prio {
+        font-size: 100%;
+    }
 }
 
 
